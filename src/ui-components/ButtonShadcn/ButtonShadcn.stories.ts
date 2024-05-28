@@ -4,7 +4,7 @@ import ButtonShadcn from './ButtonShadcn';
 const meta = {
   title: 'UI/ButtonScn',
   component: ButtonShadcn,
-  tags: ['autodocs'],
+  // tags: ['autodocs'],
   parameters: { layout: 'centered' },
   decorators: [(Story) => Story()],
 } satisfies Meta<typeof ButtonShadcn>;
