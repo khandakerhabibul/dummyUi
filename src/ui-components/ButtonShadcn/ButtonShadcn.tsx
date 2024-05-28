@@ -1,4 +1,4 @@
-import { Button } from '@/src/components/ui/button';
+import { Button } from '@/components/ui/button';
 
 type Props = {
   children: React.ReactNode;
@@ -10,8 +10,9 @@ function ButtonShadcn({ children }: Props) {
       onClick={() => {
         console.log('shadcn button clicked');
       }}
+      className='bg-blue-500 text-white hover:bg-blue-900'
     >
-      <p className='text-3xl text-red-700'>This is shadcn button</p>
+      <p className='text-sm text-red-700'>This is shadcn button</p>
       {children}
     </Button>
   );

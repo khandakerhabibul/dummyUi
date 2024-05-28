@@ -3,7 +3,8 @@
     "rootDir": "src",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"],
+      "@components/*": ["./components/*"]
     },
     /* Language and Environment */
     "target": "esnext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
