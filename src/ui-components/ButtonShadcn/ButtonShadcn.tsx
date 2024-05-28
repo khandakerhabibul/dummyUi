@@ -1,6 +1,10 @@
-import { Button } from '@/components/ui/button';
+import { Button } from '@/src/components/ui/button';
 
-function ButtonShadcn() {
+type Props = {
+  children: React.ReactNode;
+};
+
+function ButtonShadcn({ children }: Props) {
   return (
     <Button
       onClick={() => {
@@ -8,6 +12,7 @@ function ButtonShadcn() {
       }}
     >
       <p className='text-3xl text-red-700'>This is shadcn button</p>
+      {children}
     </Button>
   );
 }
